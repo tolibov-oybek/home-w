@@ -1,0 +1,39 @@
+.navigation-wrapper {
+    .nav-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 70px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        .left {
+            a {
+                font-size: larger;
+                padding: 4px 20px;
+                font-weight: bolder;
+                display: inline-block;
+            }
+        }
+
+        .middle {
+            a {
+                margin: 0 10px;
+
+                &:hover {
+                    color: red;
+                    transform: scale(0.9);
+                }
+
+                &:active {
+                    transform: scale(0.8);
+                }
+            }
+        }
+    }
+}
