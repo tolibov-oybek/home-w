@@ -9,26 +9,22 @@ function Home() {
     return (
         <div className="home-wrapper">
             <CarouselComponent images={images} blurred>
-            <div className="text-wrapper">
+                <div className="text-wrapper">
                     <p id="title">
                         Exclusive Deals Of <br />
                         Furniture <span>Collection</span>
                     </p>
                     <p id="desc">
                         Exprore different catalog for our showroom and online service <br />
-                        client happyness for our furniture this 
+                        client happyness for our furniture this
                     </p>
 
                     <div className="buttons">
-                        <button className="red-btn">
-                            Buy Now 
-                        </button>
-                        <button className="white-btn">
-                            Explore 
-                        </button>
+                        <button className="red-btn">Buy Now</button>
+                        <button className="white-btn">Explore</button>
                     </div>
                 </div>
-                </CarouselComponent>
+            </CarouselComponent>
         </div>
     );
 }
